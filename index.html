@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<p>2222222222222</p>
+		<a href="3333.html">222</a>
+		<button>annv</button>
+
+	</body>
+	<script>
+		
+		window.addEventListener("scroll",(e)=>{
+			console.log(document.body.scrollTop)
+			
+		})
+		
+		
+		window.addEventListener("resize", (e) => {
+			console.log(window.innerHeight)
+			console.log("resize", e)
+		})
+		let a = document.querySelector("a")
+		a.onclick = function(e) {
+			e.preventDefault()
+		}
+
+		let btn = document.querySelector("button")
+		btn.onclick = function(e) {
+			console.log(e.currentTarget == this)
+			console.log(e.target == this)
+			console.log(e.eventPhase)
+		}
+		let body = document.querySelector("body")
+		body.onclick = function(e) {
+			console.log("1", e.currentTarget === document.body)
+			console.log("1", this == document.body)
+			console.log("1", e.target == btn)
+			console.log("1:" + e.eventPhase)
+		}
+
+		// console.log( p1.classList)
+		// let p1Pev = p1.firstChild
+		// console.log(p1Pev)
+		// let div = document.querySelector("ul")
+		// // console.log(div.nodeType)
+		// let nodel = div.innerText
+		// console.log(nodel)
+		// div.innerHTML = "<p>dwdwrrrrrdw</p>"
+		// div.outerHTML = "<p>dwdwdw</p>"
+		// if (document.readyState ==="complete") {
+		// console.log("22222222222")	
+		// }
+		// let btn = document.getElementById("btn")
+		// btn.focus()
+		// console.log(document.activeElement == btn)
+		// let ems = document.querySelector(".bd")
+		// console.log(ems.dataset)
+		// let classNames = ems.classList
+		// classNames.add("ccc")
+		// console.log(ems)
+		// console.log("class-",classNames)
+	</script>
+</html>
